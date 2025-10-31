@@ -209,22 +209,13 @@ main .content{
 main .images{
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  justify-content: space-between;
 }
 
-main .images .img-1{
+main .images img{
   box-shadow: -3px -2px 10px #88888888;
   border-radius: 200px;
-}
-
-main .images .img-2{
-  box-shadow: -3px -2px 10px #88888888;
-  border-radius: 200px;
-}
-
-main .images .img-3{
-  box-shadow: -3px -2px 10px #88888888;
-  border-radius: 200px;
+  margin: 3rem;
 }
 
 main .box{

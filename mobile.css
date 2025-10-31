@@ -1,0 +1,65 @@
+body{
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    section img{
+        width: 300px;
+    }
+    section .texts{
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    main{
+        justify-content: 0;
+        align-items: 0;
+    }
+    main .pjs{
+        margin-top: 70px;
+    }
+    main .pjs .lines .first-line{
+        width: 300px;
+        border: 4px solid #7733FF;
+    }
+    main .pjs .lines .second-line{
+        width: 100px;
+        border: 4px solid #F7A21E;
+    }
+    main .btns{
+        gap: 45px;
+        padding: 30px;
+    }
+     main .btns span{
+        width: 80px;
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    main .btns #second{
+        width: 100px;
+        padding: 0%;
+    }
+    main .content{
+        flex-direction: column;
+        width: 10px;
+        gap: 0%;
+        margin-top: 0.5rem;
+    }
+    main .images{
+        flex-direction: row;
+    }
+    main .images img{
+        width: 100px;
+        margin: 1.5rem;
+    }
+    main .box{
+        
+    }
+    main .box .img-5{
+        width: 10px;
+    }
+}
