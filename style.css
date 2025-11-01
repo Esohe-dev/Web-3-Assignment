@@ -219,7 +219,7 @@ main .images img{
 }
 
 main .box{
-  border-radius: 7px;
+  border-radius: 10px;
   box-shadow: -3px -2px 10px #88888888;
   padding: 2rem;
   display: flex;  

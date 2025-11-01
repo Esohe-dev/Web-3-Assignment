@@ -3,6 +3,43 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
+header .texts #head{
+  font-size: 25px;
+}
+
+header .texts #bold{
+  font-size: 30px;
+}
+
+header .texts #light{
+  font-size: 20px;
+}
+
+header .texts #light #extra{
+  color: red;
+}
+
+header .texts small{
+  font-size: 12px;
+}
+
+header .btn{
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+header .btn span{
+  padding: 8px;
+}
+
+    header img {
+  box-shadow: -3px -2px 20px #88888888;
+  border-radius: 250px;
+  width: 300px;
+   }
+
     section{
         flex-direction: column;
         gap: 2rem;
@@ -14,6 +51,16 @@ body{
         text-align: center;
         gap: 0.5rem;
     }
+    section .texts #first{
+  font-size: 20px;
+  font-weight: 400;
+  font-style: medium;
+}
+
+section .texts #second{
+  font-size: 12px;
+  font-weight: 250;
+}
 
     main{
         justify-content: 0;
@@ -23,7 +70,7 @@ body{
         margin-top: 70px;
     }
     main .pjs .lines .first-line{
-        width: 300px;
+        width: 250px;
         border: 4px solid #7733FF;
     }
     main .pjs .lines .second-line{
@@ -35,7 +82,7 @@ body{
         padding: 30px;
     }
      main .btns span{
-        width: 80px;
+        width: 70px;
         font-size: 12px;
         padding: 10px 12px;
     }
@@ -46,7 +93,7 @@ body{
     main .content{
         flex-direction: column;
         width: 10px;
-        gap: 0%;
+        gap: 4rem;
         margin-top: 0.5rem;
     }
     main .images{
@@ -54,12 +101,74 @@ body{
     }
     main .images img{
         width: 100px;
-        margin: 1.5rem;
+        margin: 1rem;
     }
     main .box{
-        
+        width: 280px;
     }
-    main .box .img-5{
-        width: 10px;
+    main .box img-4{
+       width: 50px; 
+    }
+    
+    .skill .ski .btns span{
+        left: 7rem;
+        top: 2.5rem;
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+    .skill .ski span{
+        left: 19rem;
+    }
+    .skill .ski .lines{
+        margin-top: 5px;
+    }
+    .skill .ski .lines .first-line{
+        width: 250px;
+        border: 4px solid #7733FF;
+    }
+    .skill .ski .lines .second-line{
+        width: 100px;
+        border: 4px solid #F7A21E;
+    }
+    .skill .images{
+        gap: 3rem;
+        padding-top: 4rem;
+        height: none;
+    }
+    .skill .images .img-1 img{
+        width: 30px;
+    }
+    .skill .images .img-2 img{
+        width: 150px;
+    }
+    .skill .images .img-3 img{
+        width: 30px;
+    }
+
+    .certs .cert .lines{
+        margin-top: 5px;
+    }
+    .certs .cert .lines .first-line{
+        width: 250px;
+        border: 4px solid #7733FF;
+    }
+    .certs .cert .lines .second-line{
+        width: 100px;
+        border: 4px solid #F7A21E;
+    }
+    .certs .images{
+        gap: 1rem;
+    }
+    .certs .images .img-1 img{
+      width: 85px;
+      height: 70px;
+    }
+    .certs .images .img-2 img{
+        width: 180px;
+        height: 130px;
+    }
+    .certs .images .img-3 img{
+        width: 85px;
+        height: 70px;
     }
 }
