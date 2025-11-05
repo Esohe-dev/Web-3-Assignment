@@ -2,7 +2,11 @@ body{
     overflow-x: hidden;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+    body{
+    max-width: 780px;
+}
+
 header .texts #head{
   font-size: 25px;
 }
@@ -20,61 +24,53 @@ header .texts #light #extra{
 }
 
 header .texts small{
-  font-size: 12px;
+  font-size: 10px;
+  max-width: 300px;
 }
 
-header .btn{
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
-
-header .btn span{
-  padding: 8px;
-}
-
+    header .btn{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    }
+    header .btn span{
+    padding: 8px;
+    }
     header img {
-  box-shadow: -3px -2px 20px #88888888;
-  border-radius: 250px;
-  width: 300px;
-   }
+    box-shadow: -3px -2px 20px #88888888;
+    border-radius: 250px;
+    max-width: 250px;
+    }
 
     section{
         flex-direction: column;
         gap: 2rem;
     }
     section img{
-        width: 300px;
+        max-width: 250px;
     }
     section .texts{
         text-align: center;
         gap: 0.5rem;
     }
     section .texts #first{
-  font-size: 20px;
-  font-weight: 400;
-  font-style: medium;
-}
-
-section .texts #second{
-  font-size: 12px;
-  font-weight: 250;
-}
-
-    main{
-        justify-content: 0;
-        align-items: 0;
+    font-size: 17px;
     }
+    section .texts #second{
+    font-size: 10px;
+    max-width: 300px;
+    }
+
     main .pjs{
-        margin-top: 70px;
+        margin-top: 3rem;
     }
     main .pjs .lines .first-line{
-        width: 250px;
+        max-width: 250px;
         border: 4px solid #7733FF;
     }
     main .pjs .lines .second-line{
-        width: 100px;
+        max-width: 100px;
         border: 4px solid #F7A21E;
     }
     main .btns{
@@ -82,34 +78,48 @@ section .texts #second{
         padding: 30px;
     }
      main .btns span{
-        width: 70px;
+        max-width: 70px;
         font-size: 12px;
         padding: 10px 12px;
     }
     main .btns #second{
-        width: 100px;
+        max-width: 100px;
         padding: 0%;
     }
     main .content{
-        flex-direction: column;
-        width: 10px;
+        flex-direction: column-reverse;
+        max-width: 10px;
         gap: 4rem;
-        margin-top: 0.5rem;
+        margin-top: 2rem;
     }
     main .images{
         flex-direction: row;
     }
     main .images img{
-        width: 100px;
+        max-width: 80px;
         margin: 1rem;
     }
     main .box{
-        width: 280px;
+        max-width: 200px;
+        padding: 1rem;
     }
+    main .box .text #first{
+  font-size: 15px;
+  }
+
+main .box .text #second{
+  font-size: 10px;
+}
+main .box .img-5 img{
+    max-width: 40px;
+}
     main .box img-4{
-       width: 50px; 
+       max-width: 40px; 
     }
     
+    .skill{
+        margin-top: 3rem;
+    }
     .skill .ski .btns span{
         left: 7rem;
         top: 2.5rem;
@@ -145,6 +155,9 @@ section .texts #second{
         width: 30px;
     }
 
+   .certs{
+    margin-top: 3rem;
+   } 
     .certs .cert .lines{
         margin-top: 5px;
     }
@@ -157,18 +170,142 @@ section .texts #second{
         border: 4px solid #F7A21E;
     }
     .certs .images{
-        gap: 1rem;
+         gap: 0.8rem; 
+        justify-content: space-evenly;
     }
     .certs .images .img-1 img{
-      width: 85px;
-      height: 70px;
+      width: 100px;
+      height: 95px;
     }
     .certs .images .img-2 img{
-        width: 180px;
+        width: 165px;
         height: 130px;
     }
     .certs .images .img-3 img{
-        width: 85px;
-        height: 70px;
+        width: 100px;
+        height: 95px;
     }
+
+    article{
+        margin-top: 3rem;
+    }
+    article .exp span{
+        left: 14rem;
+    }
+    article .exp .lines{
+        margin-top: 5px;
+    }
+    article .exp .lines .first-line{
+        width: 250px;
+        border: 4px solid #7733FF;
+    }
+    article .exp .lines .second-line{
+        width: 100px;
+        border: 4px solid #F7A21E;
+    }
+article .btns{
+  padding: 4rem;
+  gap: 100px;
+} 
+
+article .btns span{
+  max-width: 80px;
+  font-size: 13px;
+}
+article .texts{
+  flex-direction: column;
+  gap: 2rem;
+}
+article .texts .text-1{
+    max-width: 200px;
+    height: none;
+    position: relative;
+    left: 18%;
+}
+article .texts .text-1 #first{
+  font-size: 15px;
+}
+article .texts .text-1 #second{
+  font-size: 12px;
+}
+
+article .texts .text-1 #third{
+  font-size: 8px;
+}
+
+article .texts .text-2{
+  max-width: 200px;
+  height: none;
+  top: 0%;
+  left: 18%;
+}
+
+article .texts .text-2 #fourth{
+  font-size: 15px;
+}
+
+article .texts .text-2 #fifth{
+  font-size: 12px;
+}
+
+article .texts .text-2 #sixth{
+  font-size: 8px;
+}
+
+/* vertical line */
+article .texts::after {
+  top: 187rem;
+  left: 20%;
+  width: 4px;
+  height: 530px;
+  background-color: #363636CC;
+}
+
+article .img-1 img{
+  top: 195rem;
+  left: 16.5%;
+  z-index: 1;
+  width: 20px;
+}
+article .img-2 img{
+  top: 211rem;
+  left: 16.5%;
+  z-index: 1;
+  width: 20px;
+ }
+
+     footer{
+        padding-top: 4rem;
+     }
+ footer .cont .lines{
+        margin-top: 5px;
+    }
+     footer .cont .lines .first-line{
+        width: 250px;
+        border: 4px solid #7733FF;
+    }
+    footer .cont .lines .second-line{
+        width: 100px;
+        border: 4px solid #F7A21E;
+    }
+    footer address{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0%;
+  padding-top: 2rem;
+}
+footer address .img img{
+  display: none;
+}
+footer address form{
+  margin: 0px auto;
+}
+footer address form input{
+  padding-right: 5rem;
+}
+footer address form .btn{
+  left: 30%;
+  top: 2rem;
+}
 }
