@@ -209,7 +209,7 @@ article .btns{
 } 
 
 article .btns span{
-  max-width: 80px;
+  max-width: 95px;
   font-size: 13px;
 }
 article .texts{
@@ -257,19 +257,19 @@ article .texts::after {
   top: 187rem;
   left: 20%;
   width: 4px;
-  height: 530px;
+  height: 600px;
   background-color: #363636CC;
 }
 
 article .img-1 img{
-  top: 195rem;
-  left: 16.5%;
+  top: 197rem;
+  left: 18%;
   z-index: 1;
   width: 20px;
 }
 article .img-2 img{
-  top: 211rem;
-  left: 16.5%;
+  top: 216rem;
+  left: 18%;
   z-index: 1;
   width: 20px;
  }
