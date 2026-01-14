@@ -9,7 +9,7 @@ body {
   background-color: #232732;
 }
 
-nav .links{
+nav .links .menu{
   display: flex;
   justify-content: space-evenly;
   align-content: center;
@@ -17,7 +17,7 @@ nav .links{
   text-align: center;
 }
 
-nav .links a{
+nav .links .menu a{
   text-decoration: none;
   color: #ffffff;
   background-color: #24272C;
@@ -29,10 +29,15 @@ nav .links a{
   width: 100px;
 }
 
-nav .links a:hover{
+nav .links .menu a:hover{
   background-color: #7733FF;
 }
 
+nav #menubtn{
+  display: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
 
 header{
   color: #ffffff;
